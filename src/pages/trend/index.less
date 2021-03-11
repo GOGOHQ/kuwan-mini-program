@@ -1,0 +1,178 @@
+.trend-page {
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+
+  .nav-area {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 1px solid lightgrey;
+
+    .nav-block {
+      width: 30%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .active {
+        font-weight: 600;
+      }
+
+      .unactive {
+        color: grey;
+      }
+    }
+  }
+
+  .list-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 19px;
+    transition: 0.6s linear;
+
+    .trend-card-l {
+
+      border: 3px solid #999B9D;
+      width: 330px;
+      margin-bottom: 10px;
+      height: 550px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-transform: uppercase;
+      padding: 5px;
+
+      .card-content {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .img {
+          border-radius: 10px;
+          width: 100%;
+          height: 80%;
+        }
+
+        .description {
+          margin-top: 10px;
+          width: 100%;
+          word-break: break-all;
+          display: block;
+          font-weight: 500;
+          font-size: 30px;
+
+        }
+
+        .last-row {
+          margin-top: 10px;
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+
+          .miniAvatar {
+            width: 45px;
+            height: 45px;
+            border-radius: 22px;
+          }
+
+          .nickName {
+            margin-left: 5px;
+            margin-bottom: 5px;
+            font-size: 32px;
+            color: grey;
+          }
+
+          .like {
+            width: 35px;
+            height: 35px;
+          }
+
+          .likeNum {
+            margin-left: 10px;
+            font-size: 32px;
+            color: gray;
+          }
+        }
+      }
+    }
+
+    .trend-card-r {
+      border: 3px solid #999B9D;
+      width: 350px;
+      margin-bottom: 10px;
+      margin-left: 15px;
+      height: 535px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-transform: uppercase;
+      padding: 5px;
+
+      .card-content {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .img {
+          border-radius: 10px;
+          width: 100%;
+          height: 80%;
+        }
+
+        .description {
+          margin-top: 10px;
+          width: 100%;
+          word-break: break-all;
+          display: block;
+          font-weight: 500;
+          font-size: 30px;
+
+        }
+
+        .last-row {
+          margin-top: 10px;
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+
+          .miniAvatar {
+            width: 45px;
+            height: 45px;
+            border-radius: 22px;
+          }
+
+          .nickName {
+            margin-left: 5px;
+            margin-bottom: 5px;
+            font-size: 32px;
+            color: grey;
+          }
+
+          .like {
+            width: 35px;
+            height: 35px;
+          }
+
+          .likeNum {
+            margin-left: 10px;
+            font-size: 32px;
+            color: gray;
+          }
+        }
+      }
+    }
+
+  }
+}

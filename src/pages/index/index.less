@@ -1,0 +1,193 @@
+.index-page {
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+
+  .divide-line {
+    height: 2.5px;
+    background-color: lightgrey;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .swiper-area {
+    height: 400px;
+    margin: 0px 20px;
+
+    .swiper-img {
+      border-radius: 30px;
+      margin-right: 10px;
+    }
+
+
+  }
+
+
+  .search-area {
+    margin: 20px 25px;
+    width: 700px;
+    background-color: #F5F5F5;
+    border-radius: 40px;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+
+    .search {
+      font-size: 32px;
+      font-weight: 500;
+    }
+  }
+
+  .nav-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+
+    .nav-item {
+      background-color: #F5F5F5;
+      border-radius: 40px;
+      width: max-content;
+      padding: 15px 25px;
+      font-size: 35px;
+      font-weight: 500;
+      margin-left: 22px;
+    }
+
+  }
+
+
+  .list-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 19px;
+    transition: 0.6s linear;
+
+    .product-card-l {
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, .2);
+      border: 3px solid #999B9D;
+      width: 310px;
+      margin-bottom: 17px;
+      height: 500px;
+      border-radius: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-transform: uppercase;
+      padding: 20px;
+
+      .card-content {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .title {
+          font-size: 44px;
+        }
+
+        .description {
+          margin-top: 15px;
+          width: 60%;
+          word-break: break-all;
+          display: block;
+          font-size: 22px;
+          color: #bbb;
+        }
+
+        .price {
+          padding-bottom: 20px;
+        }
+
+        .product-img {
+          width: 100%;
+          height: 280px;
+
+          .img {
+            border-radius: 10px;
+            width: 100%;
+            height: 280px;
+          }
+        }
+
+        .last-row {
+          width: 100%;
+
+          .like {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+
+    }
+
+    //右边的卡片
+    .product-card-r {
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, .2);
+      font-family: 'Open Sans', sans-serif;
+      margin-bottom: 17px;
+      margin-left: 15px;
+      border: 4px solid #999B9D;
+      width: 320px;
+      height: 470px;
+      border-radius: 40px;
+      display: flex;
+      flex-direction: column;
+      text-transform: uppercase;
+      padding: 20px;
+
+      .card-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .title {
+          font-size: 44px;
+        }
+
+        .description {
+          margin-top: 15px;
+          width: 60%;
+          word-break: break-all;
+          display: block;
+          font-size: 22px;
+          color: #bbb;
+        }
+
+        .price {
+          padding-bottom: 20px;
+        }
+
+        .product-img {
+          width: 100%;
+          height: 250px;
+
+          .img {
+            border-radius: 10px;
+            width: 100%;
+            height: 250px;
+          }
+        }
+
+        .last-row {
+          width: 100%;
+
+          .like {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+    }
+  }
+}
